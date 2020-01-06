@@ -50,11 +50,15 @@ Subscription:
          pubsubsystem.AddListener<OnApplySettingsButtonPressedEventArgs>(yourFunction);
      
 </code>
+
+
 Get your desired data from o (derived from object) or just ignore it.
 
 
 
 Unsubscription:
+
+
 <code>
   
          public void yourFunction(object o){
